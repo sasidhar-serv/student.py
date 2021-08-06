@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <H1>Results of the Post Scenario</h1>
+    <br>
+        <body>
+            <table border = 1>
+                {% for key, value in result.items() %}
+                <tr>
+                    <th> {{ key }} </th>
+                    <td> {{ value }} </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </body>
+</html>
